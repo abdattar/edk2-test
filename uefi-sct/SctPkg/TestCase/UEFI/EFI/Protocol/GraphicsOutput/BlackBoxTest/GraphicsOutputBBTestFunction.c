@@ -36,6 +36,7 @@ References:
 // TDS 4.1.1
 //
 EFI_STATUS
+EFIAPI
 BBTestEfiGraphicsOutputQueryModeFunctionAutoTest (
   IN EFI_BB_TEST_PROTOCOL   *This,
   IN VOID                   *ClientInterface,
@@ -248,6 +249,7 @@ Returns:
 // TDS 4.1.2
 //
 EFI_STATUS
+EFIAPI
 BBTestEfiGraphicsOutputSetModeFunctionAutoTest (
   IN EFI_BB_TEST_PROTOCOL   *This,
   IN VOID                   *ClientInterface,
@@ -664,6 +666,7 @@ Returns:
 // TDS 4.1.3
 //
 EFI_STATUS
+EFIAPI
 BBTestEfiGraphicsOutputBltVideoFillFunctionAutoTest (
   IN EFI_BB_TEST_PROTOCOL   *This,
   IN VOID                   *ClientInterface,
@@ -983,6 +986,7 @@ Returns:
 // TDS 4.1.4
 //
 EFI_STATUS
+EFIAPI
 BBTestEfiGraphicsOutputBltVideoBltBufferFunctionAutoTest (
   IN EFI_BB_TEST_PROTOCOL   *This,
   IN VOID                   *ClientInterface,
@@ -1391,6 +1395,7 @@ Returns:
 // TDS 4.1.5
 //
 EFI_STATUS
+EFIAPI
 BBTestEfiGraphicsOutputBltVideoToVideoFunctionAutoTest (
   IN EFI_BB_TEST_PROTOCOL   *This,
   IN VOID                   *ClientInterface,
